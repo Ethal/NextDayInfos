@@ -53,6 +53,7 @@ class dayinfo extends eqLogic {
             $this->whatMoon();
         }
         if ($this->getConfiguration('type') == 'various') {
+            $this->weekNum();
             $this->isTodayWeekend();
             $this->whatSeason();
         }
@@ -61,6 +62,7 @@ class dayinfo extends eqLogic {
             $this->whatHolidays();
             $this->isNotWorkable();
             $this->getDifftoNextHoliday();
+            $this->weekNum();
             $this->isTodayWeekend();
             $this->whatSeason();
         }
@@ -79,6 +81,12 @@ class dayinfo extends eqLogic {
             return true;
         }
         $this->import($return);
+    }
+
+    public function weekNum(){
+        $wn = date('W');
+        $this->checkAndUpdateCmd('various:weeknum', $wn);
+        log::add('dayinfo', 'debug', 'weekNum ' . $wn);
     }
 
     public function isNotWorkable(){
