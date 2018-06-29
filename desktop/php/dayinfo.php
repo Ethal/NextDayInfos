@@ -1,3 +1,7 @@
+/*
+update icon path
+*/
+
 <?php
 
 if (!isConnect('admin')) {
