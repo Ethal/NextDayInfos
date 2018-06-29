@@ -2,10 +2,8 @@
     "plugins\/dayinfo\/desktop\/php\/dayinfo.php": {
         "Ajouter un équipement": "Ajouter un équipement",
         "Rechercher": "Rechercher",
-        "Mes dayinfo": "Mes dayinfo",
+        "Infos du jour": "Infos du jour",
         "Général": "Général",
-        "Lieu dayinfo": "Lieu dayinfo",
-        "Nom de l'équipement dayinfo": "Nom de l'équipement dayinfo",
         "Objet parent": "Objet parent",
         "Aucun": "Aucun",
         "Catégorie": "Catégorie",
