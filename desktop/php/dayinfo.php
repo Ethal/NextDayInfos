@@ -5,6 +5,7 @@ if (!isConnect('admin')) {
 }
 sendVarToJS('eqType', 'dayinfo');
 $eqLogics = eqLogic::byType('dayinfo');
+$plugin = plugin::byId('dayinfo');
 
 ?>
 
