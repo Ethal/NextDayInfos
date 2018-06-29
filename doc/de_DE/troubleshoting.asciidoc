@@ -1,6 +1,0 @@
-[panel,danger]
-.Ich bekomme keine Informationen, die zurückreichen
---
-Il faut bien créer un équipement et remplir les informations du lieu pour lequel on souhaite avoir le calendrier.
---
-
