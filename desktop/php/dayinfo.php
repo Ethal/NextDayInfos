@@ -1,7 +1,6 @@
-/*
-update icon path
-*/
-
+<!--
+  20180629  : Ethal : update icon path
+-->
 <?php
 
 if (!isConnect('admin')) {

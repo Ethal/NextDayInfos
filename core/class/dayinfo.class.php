@@ -16,6 +16,12 @@
 * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
 */
 
+
+/* 
+  20180629  : Ethal   : update icon path
+*/
+
+
 /* * ***************************Includes********************************* */
 require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
 if (!class_exists('ICal')) { require_once dirname(__FILE__) . '/../../core/php/class.iCalReader.php'; }
